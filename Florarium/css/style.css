@@ -1,0 +1,174 @@
+*
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboro', sans-serif;
+}
+a {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1
+h2
+h3
+h4
+h5
+h6
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+
+}
+
+.header__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.logo {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.logo__img-wrap {
+    border: 2px;
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 16px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo__img {
+    width: 70%;
+    height: 80%;
+    object-fit: contain;
+
+}
+
+.logo__desc {
+    line-height: 131.19%;
+}
+
+.logo__title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.logo__subtitle {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 54px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+
+}
+.nav__item:hover {
+    border-color: #000;
+}
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {}
+
+.tel {}
+
+.cart {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 6px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.cart__img-wrap {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #FFBF42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart__img-wrap:hover {
+    background: #daa947;
+    transition: all 0.3s;
+}
+
+.cart__img {
+    width: 58%;
+    height: 58%;
+    object-fit: contain;
+}
+
+.cart__price {
+    margin: 0px 18px 0px 13px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cart__value {
+    font-size: 14px;
+}
+
+.cart__btn {
+    display: flex;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart__btn-img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
